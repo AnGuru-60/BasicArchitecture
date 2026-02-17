@@ -28,9 +28,9 @@ class ResultViewModel @Inject constructor(
         _firstName.value = cache.firstName
         _lastName.value = cache.lastName
         _birthDate.value = cache.birthDate
-        _country.value = cache.country
-        _city.value = cache.city
-        _address.value = cache.address
+        _country.value = cache.userAddress.country
+        _city.value = cache.userAddress.city
+        _address.value = cache.userAddress.fullAddress
         _interests.value = cache.interests
     }
 }

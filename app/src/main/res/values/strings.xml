@@ -12,6 +12,6 @@
     <string name="address">Address</string>
     <string name="birth_date">Date of birth</string>
     <string name="interests">Interests</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="error_network">Network error</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
